@@ -10,8 +10,8 @@ This was a self-initialized project.
 
 #### Features
 
-> Dark Mode
-> Custom keyword search
+> Dark Mode<br/>
+> Custom keyword search<br/>
 > Play videos
 
 #### Background Story
