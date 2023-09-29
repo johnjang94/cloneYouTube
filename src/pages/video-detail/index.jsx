@@ -45,7 +45,7 @@ export default function VideoDetail() {
           type="text/html"
           width="100%"
           height={isTabletSize ? "400" : isMobileSize ? "300" : "600"}
-          src={`http://www.youtube.com/embed/${video.id}`}
+          src={`https://www.youtube.com/embed/${video.id}`}
           title={video.title}
           className="rounded-2xl pr-2"
         />
