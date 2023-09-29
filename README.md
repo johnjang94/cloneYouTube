@@ -1,70 +1,72 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+          <h1 className="font-bold text-center text-4xl py-10">
+            Personalized Videos on Your Hands
+          </h1>
+          <h3>
+            Special Note:{" "}
+            <span className="font-semibold">
+              This was a self-initialized project
+            </span>
+          </h3>
+          <ul className="py-5">
+            Project Objective(s):
+            <li>
+              create a mock version of YouTube that allows streaming service
+              from YouTube.
+            </li>
+          </ul>
+          <p>
+            <span className="py-2.5">Background Story:</span>
+            <br />
+            <span className="underline py-2.5">How I approached</span>
+            <br />
+            It was a few months after I started to learn JavaScript. Until this
+            moment, I have created a few very simple and mini games that are
+            web-based. Every small game required a bit of effort to create
+            because I needed to think about its functionalities and consider how
+            I am going to make them work along with the UI. As I continue my
+            journey in learning JavaScript, I have reached learning about the
+            use of RESTful API communication.
+          </p>
+          <p className="py-2.5">
+            The concept of RESTful API communication seemed to be easy, until I
+            realized that the practice was far away from understanding the
+            concept. Indeed, I have struggled a few times to make the project
+            work in the way I have intended. I needed to pivot the plan a few
+            times because I did not have a clear plan for the data structure nor
+            was it organized in a way that can be easily followed. Basically,
+            this project gave me a moment to think about refactoring the
+            structure (besides the code that I was writing).
+          </p>
+          <p className="py-2.5">
+            Perhaps, this was the motive that I looked for more projects that
+            require RESTful API communication skill. I was surfing on the web
+            for hours to find good sources because many of the providers were
+            mixed between paid, unpaid or under-developed.
+          </p>
+          <p className="py-2.5">
+            <span className="underline">Come to Decision</span>
+            <br />
+            After surfing around the website for a while, I have decided to go
+            with a few well-known websites to see if they offer open-source
+            options for developers. From this process, YouTube came under my
+            radar, and I thought that it was a good practice to write RESTful
+            API communication by creating the mock version of YouTube.
+          </p>
+          <ul>
+            Therefore, I have decided to do the following tasks for this
+            project:
+            <br />
+            <li>- create home page</li>
+            <li>- allow users to search for videos</li>
+            <li>
+              - allow users to view related videos to the searched keywords
+            </li>
+            <li>
+              - allow users to view related videos to the videos they have
+              chosen to watch
+            </li>
+          </ul>
+          <div>
+          <p> Website: </p>
+          <a href="https://youtube-myversion.netlify.app/"></a>
+          </div>
